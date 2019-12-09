@@ -268,7 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 829479754}
   m_Layer: 0
-  m_Name: Ref
+  m_Name: AxisReference
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
