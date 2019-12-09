@@ -27,7 +27,7 @@ namespace VrDebugPlugin
         /// </summary>
         /// <param name="tran"></param>
         /// <param name="follow">the debug axis will follow the transform's position and rotation</param>
-        public static void DrawAxis(Transform tran, bool follow = false) {
+        public static void DrawAxis(Transform tran, bool follow = true) {
 #if UNITY_EDITOR || VRDEBUG_PROD
             GameObject obj = SpawnAxis();
             obj.transform.position = tran.position;
