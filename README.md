@@ -1,6 +1,7 @@
 # VrDebug
 
-VrDebug is a tiny library to help you debug positions in VR by spawning simple prefabs in the scene.
+VrDebug is a tiny library to help you debug positions, axis and lines in VR.
+In code it works similar to Unity's Debug.DrawLine(), except here it's visible in game view (and in VR).
 
 
 ## Setup
