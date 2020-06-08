@@ -2,6 +2,12 @@
 
 VrDebug is a tiny library to help you debug positions in VR by spawning simple prefabs in the scene.
 
+
+## Setup
+
+Clone this repo into the Assets folder of your Unity project
+
+
 ## Usage
 
 Add `using VrDebugPlugin` to your script, then add one of the following anywhere:
