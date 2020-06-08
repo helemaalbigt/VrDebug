@@ -99,7 +99,7 @@ namespace VrDebugPlugin
 #endif
         }
 
-        public static void DrawLine(Vector3 start, Vector3 end, Color color = default(Color), float thickness = 0.005f) {
+        public static void DrawLine(Vector3 start, Vector3 end, Color color = default(Color), float thickness = 0.008f) {
 #if UNITY_EDITOR || VRDEBUG_PROD
             CheckToInit();
 
