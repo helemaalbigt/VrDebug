@@ -7,6 +7,6 @@ public class VrDebugExample : MonoBehaviour
 	
 	void Start () {
         VrDebug.DrawPoint(Vector3.zero);
-        VrDebug.DrawAxis(referenceTransform, true);
+        VrDebug.DrawAxis(referenceTransform);
     }
 }
