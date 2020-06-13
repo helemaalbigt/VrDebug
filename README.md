@@ -4,7 +4,17 @@ VrDebug is a tiny library to help you debug positions, axis and lines in VR.
 In code it works similar to Unity's Debug.DrawLine(), except here it's visible in game view (and in VR).
 
 ![vrdebug line example](https://i.imgur.com/49zmTSY.gif)
+```
+VrDebug.DrawLine(pos1, pos2);
+```
+
 ![vrdebug axis example](https://i.imgur.com/z3Kyc1e.gif)
+```
+foreach (var bone in _ovrSkeleton.Bones) {
+    VrDebug.DrawAxis(bone.Transform);
+}
+```
+
 
 ## Setup
 
