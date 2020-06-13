@@ -84,12 +84,13 @@ namespace VrDebugPlugin
         /// </summary>
         /// <param name="pos"></param>
         /// <param name="color"></param>
-        public static void DrawPoint(Vector3 pos, Color color = default(Color)) {
+        public static void DrawPoint(Vector3 pos, Color color = default(Color), float scale = 0.005f) {
 #if UNITY_EDITOR || VRDEBUG_PROD
             CheckToInit();
 
             GameObject obj = _pointPool.Get();
             obj.transform.position = pos;
+            obj.transform.localScale = scale * Vector3.one;
 
             if (color != default(Color)) {
                 obj.GetComponent<Renderer>().material.color = color;
